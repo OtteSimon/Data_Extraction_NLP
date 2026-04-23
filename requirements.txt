@@ -1,0 +1,12 @@
+datasets
+evaluate
+googletrans==4.0.0rc1
+langdetect
+openpyxl
+pandas
+pdfplumber
+seqeval
+spacy
+torch
+transformers
+-e .

@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.eggs/
+*.egg-info/
+build/
+dist/
+
+models/*
+!models/.gitkeep
+
+spacy_output.xlsx
+bert_output.xlsx
+results/
+logs/

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "material-datasheet-entity-extraction"
+version = "0.1.0"
+description = "Entity extraction from SDS and MDS PDF datasheets."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+  "datasets",
+  "evaluate",
+  "googletrans==4.0.0rc1",
+  "langdetect",
+  "openpyxl",
+  "pandas",
+  "pdfplumber",
+  "seqeval",
+  "spacy",
+  "torch",
+  "transformers",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
